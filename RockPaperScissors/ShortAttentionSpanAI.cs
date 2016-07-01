@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace RockPaperScissors
 {
-    class ShortAttentionSpanAI
+    class ShortAttentionSpanAI : IPlayer
     {
+        public int NextMove()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void SaveResult(int myMove, int otherMove)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

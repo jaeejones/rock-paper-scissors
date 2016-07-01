@@ -14,8 +14,8 @@ namespace RockPaperScissors
             // Add AIs by filling in lines like the ones below
             {"Randa", new RandomAI() },
             {"April", new RandomAI() },
-            {"May", new OtherAI() },
-             {"June", new YetAnotherAI() },
+            {"May", new ShortAttentionSpanAI()},
+            {"June", new StubbornAI(0) },
         };
 
         static void Main(string[] args)

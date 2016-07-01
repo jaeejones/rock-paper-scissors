@@ -8,14 +8,22 @@ namespace RockPaperScissors
 {
     class StubbornAI : IPlayer
     {
-        public int NextMove()
+        int FavoriteMove;
+
+        public StubbornAI(int favoriteMove)
         {
-            throw new NotImplementedException();
+            FavoriteMove = favoriteMove;
         }
 
+        public int NextMove() // method
+        {
+            return FavoriteMove;
+        }
         public void SaveResult(int myMove, int otherMove)
         {
-            throw new NotImplementedException();
+
         }
+
+
     }
 }
