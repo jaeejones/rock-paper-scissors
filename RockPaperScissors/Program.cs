@@ -12,10 +12,10 @@ namespace RockPaperScissors
         {
             // TODO:
             // Add AIs by filling in lines like the ones below
-            { "Randa the Random", new RandomAI() },
-            //{ "Random 2", new RandomAI() },
-            //{ "Other", new OtherAI() },
-            //{ "YetAnother", new YetAnotherAI() },
+            {"Randa", new RandomAI() },
+            {"April", new RandomAI() },
+            {"May", new OtherAI() },
+             {"June", new YetAnotherAI() },
         };
 
         static void Main(string[] args)
