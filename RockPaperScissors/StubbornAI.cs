@@ -8,16 +8,16 @@ namespace RockPaperScissors
 {
     class StubbornAI : IPlayer
     {
-        int FavoriteMove;
+        int FavoriteMove; // my move intialized 
 
-        public StubbornAI(int favoriteMove)
+        public StubbornAI(int favoriteMove) //constuctor
         {
-            FavoriteMove = favoriteMove;
+            FavoriteMove = favoriteMove; 
         }
 
-        public int NextMove() // method
+        public int NextMove() // method that is called for next move
         {
-            return FavoriteMove;
+            return FavoriteMove; //retured what was intialzed from the int. 
         }
         public void SaveResult(int myMove, int otherMove)
         {

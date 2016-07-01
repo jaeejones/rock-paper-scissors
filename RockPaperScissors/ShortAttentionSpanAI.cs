@@ -8,14 +8,45 @@ namespace RockPaperScissors
 {
     class ShortAttentionSpanAI : IPlayer
     {
+        public int LastMoveOfOtherPlayer;
+
         public int NextMove()
         {
-            throw new NotImplementedException();
-        }
+            int nextMove = 0;
 
-        public void SaveResult(int myMove, int otherMove)
+            switch (LastMoveOfOtherPlayer)
+
+            {
+                case 0:                                // 0 is rock, 1, paper 2 scissors
+                    nextMove = 1;
+                    break;
+
+                case 1:
+                    nextMove = 2;
+                    break;
+
+                case 2:
+                    nextMove = 0;
+                    break;
+
+                default:
+                    nextMove = 2;
+                    break;
+
+            }
+            return nextMove;
+        }
+          
+            public void SaveResult(int myMove, int otherMove)
         {
-            throw new NotImplementedException();
+            LastMoveOfOtherPlayer = otherMove;
         }
     }
 }
+
+   
+  
+ 
+
+
+
