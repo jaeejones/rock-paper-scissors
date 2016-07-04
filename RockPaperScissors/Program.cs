@@ -12,9 +12,9 @@ namespace RockPaperScissors
         {
             // TODO:
             // Add AIs by filling in lines like the ones below
-            {"May", new RandomAI()},
-            {"June", new ShortAttentionSpanAI()},
-            {"July", new StubbornAI(0) },
+            {"Randa", new RandomAI()},
+            {"Shortie", new ShortAttentionSpanAI()},
+            {"Stubby", new StubbornAI(0) },
         };
 
         static void Main(string[] args)

@@ -10,7 +10,7 @@ namespace RockPaperScissors
     {
         int FavoriteMove; // my move intialized 
 
-        public StubbornAI(int favoriteMove) //constuctor
+        public StubbornAI(int favoriteMove) // the constuctor
         {
             FavoriteMove = favoriteMove; 
         }

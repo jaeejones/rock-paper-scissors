@@ -17,7 +17,7 @@ namespace RockPaperScissors
             switch (LastMoveOfOtherPlayer)
 
             {
-                case 0:                                // 0 is rock, 1, paper 2 scissors
+                case 0:                                // 0 is rock, 1, paper 2 scissors, 0 chosen
                     nextMove = 1;
                     break;
 
