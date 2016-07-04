@@ -30,14 +30,14 @@ namespace RockPaperScissors
                 Console.BackgroundColor = ConsoleColor.Blue;
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine();
-                Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+                Console.WriteLine("***************************************");
                 Console.WriteLine("\n1. Human vs AI");
                 Console.WriteLine();
                 Console.WriteLine("2. AI vs AI");
                 Console.WriteLine();
                 Console.WriteLine("3. Quit");
                 Console.WriteLine();
-                Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+                Console.WriteLine("**************************************");
                 Console.WriteLine();
                 Console.WriteLine();
                 Console.WriteLine("ROCK                    PAPER                           SCISSORS!!");
