@@ -215,13 +215,4 @@ namespace RockPaperScissors
     }
 }
 
-/*      Console.Writeline();
-        Console.Writeline("ROCK                    PAPER                           SCISSORS!!");
-        Console.Writeline("    _______                 _______                    _______");
-        Console.Writeline("---'   ____)            ---'   ____)____           ---'   ____)____");
-        Console.Writeline("      (_____)                     ______)                    ______)");
-         Console.Writeline("      (_____)                     _______)                __________)");
-         Console.Writeline("      (____)                    _______)                 (____)");
-         Console.Writeline("---.__(___)             ---.__________)            ---.__(___)");
-         Console.Writeline();
-*/
+
