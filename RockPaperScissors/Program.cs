@@ -27,9 +27,27 @@ namespace RockPaperScissors
             }
             while (true)
             {
+                Console.BackgroundColor = ConsoleColor.Blue;
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine();
+                Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
                 Console.WriteLine("\n1. Human vs AI");
+                Console.WriteLine();
                 Console.WriteLine("2. AI vs AI");
+                Console.WriteLine();
                 Console.WriteLine("3. Quit");
+                Console.WriteLine();
+                Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.WriteLine("ROCK                    PAPER                           SCISSORS!!");
+                Console.WriteLine("    _______                 _______                    _______");
+                Console.WriteLine("---'   ____)            ---'   ____)____           ---'   ____)____");
+                Console.WriteLine("      (_____)                     ______)                    ______)");
+                Console.WriteLine("      (_____)                     _______)                __________)");
+                Console.WriteLine("      (____)                    _______)                 (____)");
+                Console.WriteLine("---.__(___)             ---.__________)            ---.__(___)");
+                Console.WriteLine();
                 Console.Write("> ");
                 int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -196,3 +214,14 @@ namespace RockPaperScissors
 
     }
 }
+
+/*      Console.Writeline();
+        Console.Writeline("ROCK                    PAPER                           SCISSORS!!");
+        Console.Writeline("    _______                 _______                    _______");
+        Console.Writeline("---'   ____)            ---'   ____)____           ---'   ____)____");
+        Console.Writeline("      (_____)                     ______)                    ______)");
+         Console.Writeline("      (_____)                     _______)                __________)");
+         Console.Writeline("      (____)                    _______)                 (____)");
+         Console.Writeline("---.__(___)             ---.__________)            ---.__(___)");
+         Console.Writeline();
+*/
